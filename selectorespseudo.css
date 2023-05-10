@@ -1,0 +1,11 @@
+.miboton:hover::before{
+    background-color: green;
+    color: white;
+    content: '¡Hecho!';
+}
+
+
+button::before{
+    content:'pasa por encima';
+}
+
